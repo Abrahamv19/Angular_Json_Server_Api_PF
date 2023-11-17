@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "lastName": "admin",
+      "password": "123",
+      "token": "zzzxxx",
+      "email": "admin1@g.com",
+      "role": "ADMIN",
+      "id": 1
+    },
+    {
+      "name": "pablo",
+      "lastName": "vargas",
+      "email": "employee1@g.com",
+      "password": "456",
+      "token": "aaasss",
+      "role": "EMPLOYEE",
+      "id": 2
+    },
+    {
+      "name": "andrea",
+      "lastName": "saa",
+      "email": "student1@mail.com",
+      "password": "789",
+      "token": "qqqwww",
+      "role": "STUDENT",
+      "id": 3
+    },
+    {
+      "name": "jacobo",
+      "lastName": "gutierrez",
+      "email": "jacobo@g.com",
+      "password": "890",
+      "token": "fffggg",
+      "role": "STUDENT",
+      "id": 4
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "userId": 3
+    },
+    {
+      "courseId": 1,
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "courseId": 3,
+      "userId": 4,
+      "id": 4
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "vue"
+    },
+    {
+      "id": 2,
+      "name": "react"
+    },
+    {
+      "id": 3,
+      "name": "angular"
+    }
+  ]
+}
