@@ -35,6 +35,24 @@
       "token": "fffggg",
       "role": "STUDENT",
       "id": 4
+    },
+    {
+      "name": "isaac",
+      "lastName": "uribe",
+      "email": "isaac@g.com",
+      "password": "444",
+      "token": "ggghhh",
+      "role": "STUDENT",
+      "id": 5
+    },
+    {
+      "name": "matias",
+      "lastName": "vasquez",
+      "email": "matias@g.com",
+      "password": "009",
+      "token": "jhjg",
+      "role": "STUDENT",
+      "id": 6
     }
   ],
   "enrollments": [
@@ -57,20 +75,43 @@
       "courseId": 3,
       "userId": 4,
       "id": 4
+    },
+    {
+      "courseId": 4,
+      "userId": 6,
+      "id": 5
     }
   ],
   "courses": [
     {
-      "id": 1,
-      "name": "vue"
+      "name": "vue",
+      "startDate": "2023-11-01T05:00:00.000Z",
+      "endDate": "2023-11-30T05:00:00.000Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "react"
+      "name": "react",
+      "startDate": "2023-11-01T05:00:00.000Z",
+      "endDate": "2023-11-30T05:00:00.000Z",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "angular"
+      "name": "angular",
+      "startDate": "2023-11-01T05:00:00.000Z",
+      "endDate": "2023-11-30T05:00:00.000Z",
+      "id": 3
+    },
+    {
+      "name": "sql",
+      "startDate": "2023-12-01T05:00:00.000Z",
+      "endDate": "2023-12-31T05:00:00.000Z",
+      "id": 4
+    },
+    {
+      "name": "javascript",
+      "startDate": "2023-11-07T05:00:00.000Z",
+      "endDate": "2023-12-07T05:00:00.000Z",
+      "id": 5
     }
   ]
 }
